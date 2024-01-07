@@ -1,0 +1,30 @@
+.container-banner{
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+
+.banner {
+    background-image: url('/asset/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    color: white;
+   
+}
+.banner-text{
+text-align: center;
+margin-top: 20px;
+padding-top: 160px;
+
+}
+
+.banner-text-1{
+
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
