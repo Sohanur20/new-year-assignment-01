@@ -87,8 +87,9 @@ body {
 
 .Welcome-img {
 
-    background-image: url('/asset/Vectorrr.png') ;
-    
+    background-image: url('/asset/Vectorrr.png');
+    /* background: linear-gradient(  #070211, rgba(7, 2, 17, 0.00) 100%);  */
+
     width: 1320px;
     height: 600px;
     margin: auto;
@@ -139,4 +140,51 @@ body {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* places , time , section */
+
+.places-bg {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+.places-container {
+    text-align: center;
+    padding: 100px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.primary-color {
+
+    color: #F00;
+
+}
+
+.date,
+time {
+    margin-top: -4px;
+}
+
+.btn {
+
+    width: 167px;
+    height: 60px;
+    background-color: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 8px;
+   
+    
 }
