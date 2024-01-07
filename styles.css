@@ -87,7 +87,7 @@ body {
 
 .Welcome-img {
 
-    background-image: url('/asset/Vectorrr.png');
+    background-image: url( '/asset/Vectorrr.png');
     /* background: linear-gradient(  #070211, rgba(7, 2, 17, 0.00) 100%);  */
 
     width: 1320px;
@@ -195,6 +195,7 @@ time {
 
     display: flex;
     padding: 120px 140px;
+    margin-left: 130px;
 }
 
 .coming {
@@ -229,7 +230,7 @@ time {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    margin-bottom:8px ;
+    margin-bottom: 8px;
 }
 
 .year-desk {
@@ -240,11 +241,76 @@ time {
     font-weight: 400;
     line-height: 32px;
 
+
+}
+
+.middle-img {
+    margin-left: 110px;
+    margin-top: 20px;
+
+}
+
+/* WHAT IS FUNCTIONAL */
+
+.holidays-what {
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.holiday-title {
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: -15px;
+}
+
+.holiday-desk {
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: -15px;
     
 }
 
-.middle-img{
-margin-left: 110px;
-margin-top: 20px;
+.image-container{
 
+   margin-left: 130px;
+   margin-top:65px ;
+   background: white;
+}
+
+.all-image{
+    display: flex;
+   
+
+}
+
+
+
+
+
+.woman{
+    margin-left: 0px;
+  
+}
+
+.red{
+    
+    background-image: url('/asset/Rectangle\ 2.png');
+    width: 1320px;
+    height: 229px;
+    margin-left: 200px;
+    border-radius: 16px 0px 16px 16px;
+    
 }
