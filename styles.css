@@ -17,10 +17,8 @@ body {
 
 
 .banner {
-    /* background-image: url('/asset/Banner\ Image.png'); */
-
-
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('/asset/Banner\ Image.png');
+   
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('./asset/Banner\ Image.png');
 
     width: 1320px;
     height: 600px;
@@ -90,16 +88,13 @@ body {
     margin-top: -10px;
     margin-bottom: 45px;
 
-
 }
 
 /* wellcome section */
 
 .Welcome-img {
 
-
-
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('/asset/Vectorrr.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('./asset/Vectorrr.png');
 
 
     width: 1320px;
@@ -258,7 +253,6 @@ time {
     font-weight: 400;
     line-height: 32px;
 
-
 }
 
 .middle-img {
@@ -305,7 +299,6 @@ time {
 
 .image-container {
 
-
     margin-top: 65px;
     background: white;
 }
@@ -316,12 +309,10 @@ time {
 
 }
 
-
 .gift-box {
 
     height: 500px;
 }
-
 
 .woman {
     margin-right: 250px;
@@ -330,12 +321,10 @@ time {
 
 .red {
 
-    background-image: url('/asset/Rectangle\ 2.png');
+    background-image: url('./asset/Rectangle\ 2.png');
     width: 1320px;
     height: 229px;
     margin-top: -500px;
-
-
 
 }
 
@@ -443,8 +432,6 @@ time {
     margin-top: 15px;
     display: flex;
 
-
-
 }
 
 .subs-input {
@@ -454,7 +441,6 @@ time {
     font-weight: 400;
     padding: 30px;
     border: none;
-
 
 }
 
@@ -501,13 +487,10 @@ time {
     gap: 20px;
     font-family: Inter;
     
-
-
 }
 
 .call,
 .web {
-
     width: 24px;
     height: 24px;
 
@@ -520,10 +503,9 @@ time {
 
 .hr{
 
-   
 height: 1px;
-
 }
+
 .icon{
 
     text-align: center;
