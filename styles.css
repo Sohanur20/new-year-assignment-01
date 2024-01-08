@@ -447,14 +447,14 @@ time {
 
 }
 
-.subs-input{
+.subs-input {
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     padding: 30px;
     border: none;
-   
+
 
 }
 
@@ -470,7 +470,68 @@ time {
     font-weight: 600;
     text-transform: capitalize;
     margin-left: 150px;
+
+
+}
+
+/* footer */
+
+.footer-item {
+
+    background: #070211;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    height: 600px;
+}
+
+.title-footer,
+.title-footer-2 {
+
+    padding: 100px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.left-side {
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
     
 
 
+}
+
+.call,
+.web {
+
+    width: 24px;
+    height: 24px;
+
+}
+
+.num , .site{
+
+    margin-top: -10px;
+}
+
+.hr{
+
+   
+height: 1px;
+
+}
+.icon{
+
+    text-align: center;
+    padding: 5px;
+    margin-top: -200px;
+}
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: space-around;
 }
