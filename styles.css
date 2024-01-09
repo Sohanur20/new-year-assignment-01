@@ -370,7 +370,8 @@ time {
     gap: 20px;
     margin-bottom: 20px;
     cursor: pointer;
-    
+   
+
 }
 
 
@@ -424,26 +425,19 @@ time {
 
 
 
-.input-container {
 
-    width: 648px;
-    height: 72px;
-    border-radius: 50px;
-    background: #FFF;
-    margin: auto;
-    margin-top: 15px;
-    display: flex;
-
-}
 
 .subs-input {
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    padding: 30px;
+  padding: 0 50px ;
+    height: 72px;
     border: none;
-
+    border-radius: 50px 0  0 50px;
+    width: 648px;
+    
 }
 
 .subs-btn {
@@ -457,7 +451,8 @@ time {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+   
 cursor: pointer;
 
 }
@@ -505,15 +500,32 @@ cursor: pointer;
 
 .hr{
 
-height: 1px;
+    width: 1300px;
+
+
+}
+
+.icon-alls{
+
+   padding: 48px;
+   
+   
+}
+
+.icon-alls img{
+    padding: 0 20px;
+    cursor: pointer;
+
 }
 
 .icon{
 
     text-align: center;
     padding: 5px;
-    margin-top: -200px;
+    margin-top: -300px;
 }
+
+
 .copyright{
     color: white;
     display: flex;
